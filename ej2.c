@@ -11,11 +11,11 @@ int factorial  (int n)  {
 
 int main(int argc, char *argv[]) {
     int numero; //se necesita para guardar lo que digite el usuario
-    printf("Ingrese un número para calcular su factorial: ");//aqui se le pide al usuario el numero que se va a guardar en lo anterir (not para revisar: el numero no puede ser muy grande porque no sirve -> preguntar)
-    scanf("%d", &numero); //leyendo el numero
+    printf("Ingrese un número para calcular su factorial: ");//aqui se le pide al usuario el numero que se va a guardar en lo antrio)
+    scanf("%d", &numero); //leyendo el numero ingresado por el usuario
     
     int resultado = factorial(numero); //aqui se usa la parte de factorial que se corrigio para luego guardar el resultado en la variable "resultado"
-    printf("%d! = %d\n", numero, resultado); //se imprime el calculo
+    printf("%d! = %d\n", numero, resultado); //se imprime el calculo a partir del numero ingresado por el usuario
     
     return 0;
 }
